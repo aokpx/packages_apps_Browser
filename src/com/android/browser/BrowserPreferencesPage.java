@@ -19,7 +19,7 @@ package com.android.browser;
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import android.preference.PreferenceDrawerActivity;
 import android.view.MenuItem;
 
 import com.android.browser.preferences.BandwidthPreferencesFragment;
@@ -27,7 +27,7 @@ import com.android.browser.preferences.DebugPreferencesFragment;
 
 import java.util.List;
 
-public class BrowserPreferencesPage extends PreferenceActivity {
+public class BrowserPreferencesPage extends PreferenceDrawerActivity {
 
     public static final String CURRENT_PAGE = "currentPage";
     private List<Header> mHeaders;

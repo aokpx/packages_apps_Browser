@@ -28,7 +28,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.preference.PreferenceActivity;
+import android.preference.PreferenceDrawerActivity;
 import android.provider.BrowserContract.Bookmarks;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -620,7 +620,7 @@ public class WebsiteSettingsFragment extends ListFragment implements OnClickList
                 }
             } else {
                 Site site = (Site) view.getTag();
-                PreferenceActivity activity = (PreferenceActivity) getActivity();
+                PreferenceDrawerActivity activity = (PreferenceDrawerActivity) getActivity();
                 if (activity != null) {
                     Bundle args = new Bundle();
                     args.putParcelable(EXTRA_SITE, site);
@@ -672,7 +672,7 @@ public class WebsiteSettingsFragment extends ListFragment implements OnClickList
     }
 
     private void finish() {
-        PreferenceActivity activity = (PreferenceActivity) getActivity();
+        PreferenceDrawerActivity activity = (PreferenceDrawerActivity) getActivity();
         if (activity != null) {
             activity.finishPreferencePanel(this, 0, null);
         }
