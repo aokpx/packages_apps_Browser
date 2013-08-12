@@ -656,11 +656,6 @@
     <!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
     <string name="pref_lab_fullscreen_summary">
       Use fullscreen mode to hide the status bar</string>
-    <!-- Title for the WebGL feature [CHAR LIMIT=40] -->
-    <string name="pref_lab_webgl">WebGL</string>
-    <!-- Summary for the WebGL lab feature [CHAR LIMIT=120] -->
-    <string name="pref_lab_webgl_summary">Enable WebGL</string>
-    <!-- Title for the WebSockets feature [CHAR LIMIT=40] -->
     <string name="pref_lab_websockets">WebSockets</string>
     <!-- Summary for the WebGL lab feature [CHAR LIMIT=120] -->
     <string name="pref_lab_websockets_summary">Enable WebSockets</string>
